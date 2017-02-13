@@ -1,0 +1,95 @@
+body{font-family: "Verdana"; /*background-color: #cc7377;*/}
+
+div > h1{
+	margin-right: 20px;
+	padding-top: 10%;
+	text-align: right;
+	color: white;
+}
+
+div > h3{
+	text-align: right;
+	color: white;
+	margin-right: 20px;
+}
+
+figcaption {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+
+.cabecalho {
+	background-color: #287099;
+	height: 250px;
+	box-shadow: 0 3px 15px #000;
+}
+
+.navBar {
+	background-color: #73accc;
+	/*box-shadow: 0 3px 15px #000;*/
+}
+
+.navBar li {
+	padding: 10px;
+	display: inline-block;
+}
+
+.navBar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navBar a:hover {
+	text-decoration: none;
+	background-color: #287099;
+	padding: 8px;
+}
+
+
+.tdLivros{
+	width: 180px;
+	height: 433px;
+	display: inline-block;
+	background-color: #d3d3d3;
+	margin-right:5px;
+		
+}
+
+.tdLivros:hover {
+	text-decoration: none;
+	background-color: #287099;
+	padding: 8px;
+}
+
+.tblLivros {
+	margin: 0 auto;
+}
+
+.capaLivro {
+	width: 180px;
+	height: 258px;
+}
+
+.rodape {
+	margin-top: 50px;
+	background-color: #287099;
+	height: 40px;
+}
+
+.rodape p{
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+
+.rodape a{
+	text-decoration: none;
+	color: white;
+}
+

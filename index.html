@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Livraria do Bruno</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+		 
+			<div class="cabecalho">
+				<h1>Livraria do Bruno</h1>
+				<h3>'Bons' livros para você e sua turma!</h3>
+			</div>
+		</header>
+
+		<nav>
+			<ul class="navBar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Novidades</a></li>
+				<li><a href="#">Sobre</a></li>
+			</ul>
+		</nav>
+
+		<section id="livrosPrincipais">
+
+			<!-- Tabela de Livros Em Destaque -->
+			<table class="tblLivros Destaques">
+				<thead>
+					<th>
+						<h2>Destaques</h2>
+					</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/batalhaApoc.jpg" alt="A Batalha do Apocalipse">
+							<figcaption>
+								<p id = 'tituloLivro'>A Batalha do Apocalipse</p>
+								<a href="#">Eduardo Spohr</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$35,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/fundacao.jpg" alt="Fundação">
+							<figcaption>
+								<p id = 'tituloLivro'>Fundação</p>
+								<a href="#">Isaac Asimov</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$35,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/aArmada.jpg" alt="A Armada">
+							<figcaption>
+								<p id = 'tituloLivro'>A Armada</p>
+								<a href="#">Ernest Cline</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$29,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/dancaDragoes.jpg" alt="A Dança dos Dragões">
+							<figcaption>
+								<p id = 'tituloLivro'>A Dança dos Dragões</p>
+								<a href="#">George R.R. Martin</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$40,00</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/pedraFilosofal.jpg" alt="Harry Potter: E A Pedra Filosofal">
+							<figcaption>
+								<p id = 'tituloLivro'>Harry Potter: E A Pedra Filosofal</p>
+								<a href="#">JK Rowling</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$35,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+<!-- Tabela de Livros Mais Vendidos -->
+			<table class="tblLivros maisVendidos">
+				<thead>
+					<th>
+						<h2>Os Mais Vendidos</h2>
+					</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/jogador1.jpg" alt="Jogador nº1">
+							<figcaption>
+								<p id = 'tituloLivro'>Jogador Número 1</p>
+								<a href="#">Ernest Cline</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$27,90</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/princMestico.jpg" alt="Harry Potter e o Principe Mestiço">
+							<figcaption>
+								<p id = 'tituloLivro'>Harry Potter e o Principe Mestiço</p>
+								<a href="#">JK Rowling</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$28,50</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/nomeVento.jpg" alt="O Nome Do Vento">
+							<figcaption>
+								<p id = 'tituloLivro'>O Nome Do Vento</p>
+								<a href="#">Patrick Rothfuss</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$37,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/filhosEden.jpg" alt="Filhos do Éden">
+							<figcaption>
+								<p id = 'tituloLivro'>Filhos do Éden: O Paraíso Perdido </p>
+								<a href="#">Eduardo Spohr</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$43,99</h3>
+								</a>
+							</figcaption>
+						</td>
+
+						<td class="tdLivros">
+							<img class="capaLivro" src="img/livros/guerraTronos.jpg" alt="Guerra dos Tronos">
+							<figcaption>
+								<div id = "tituloLivro">
+									<p onmouseover="corTitulo()">Guerra Dos Tronos</p>
+								</div>
+								<a href="#">George R.R. Martin</a>
+								<a href="#">
+									<h3 style="color: #bf0000;">R$20,00</h3>
+								</a>
+							</figcaption>
+						</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+	</div>
+	<footer>
+		<div class="rodape">
+			<p>Desenvolvido por <a href="https://br.linkedin.com/in/bruno-cabral-b8aa1365">Bruno Cabral</a></p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
+<!--
+	(Exercнcio 01) 
+
+Criar uma conta no github
+
+- Tutorial de uso do git: http://rogerdudler.github.io/git-guide/index.pt_BR.html
+- Curso em vнdeo: http://dev.rbtech.info/curso-controle-versao-git-aula-1/
+
+(Exercнcio 02) 
+
+Criar uma pбgina HTML com CSS, que possua:
+
+01) Um cabeзalho com o nome da loja: "Livraria do 'aluno'"
+
+02) Um corpo, com 10 livros, contendo:
+   - Capa do livro
+   - Tнtulo do livro
+   - Autor do livro
+   - Preзo
+
+03) Um rodapй com o texto: "Desenvolvido por 'aluno'"
+
+04) Uma funзгo Javascript que deixe o tнtulo do livro em vermelho quando o usuбrio passar o mouse sobre o tнtulo
+
+05) Armazenar o cуdigo fonte em um repositуrio no Github de vocкs.
+
+Obs: obtenham os dados dos livros na Internet, ao seu critйrio.
+-->
